@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.block1{
+    height: 550px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.click{
+    height: 700px;
+    width: 500px;
+}
+.clickBtn{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 36px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;  
+    transition: 00.3s;
+}
+.clickBtn:hover{
+    background-color:rgb(175, 134, 241);
+    border-color:rgb(175, 134, 241);
+    transition: 00.3s;
+}
+.clickBtn:active{
+    background-color:rgb(158, 110, 235);
+    transition: 0.1s;
+}
+.lock{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-top: 200px;
+    margin-left: 145px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: 00.3s;
+}
+.lock:hover{
+    background-color:rgb(175, 134, 241);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.resBlock{
+    height: 550px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.inp{
+    display: flex;
+    height: 25px;
+    width: 300px;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+.inp input{
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plusBtn{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    transition: 00.3s;
+}
+.plusBtn:hover{
+    background-color:rgb(175, 134, 241);
+    transition: 00.3s;
+}
+.createdPlayer{
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.but{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
